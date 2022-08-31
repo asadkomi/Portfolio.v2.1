@@ -24,7 +24,7 @@ const Experiences = () => {
   return (
     <div
       name="experience"
-      className="w-full md:h-screen lg:h-full flex justify-center items-center  bg-slate-400 bg-[url('./assets/about.png')] bg-cover bg-center relative"
+      className="w-full md:h-screen lg:h-full flex justify-center items-center  bg-slate-400 bg-[url('./assets/bg-sec.jpg')] bg-cover bg-center relative"
     >
       <div className="w-full h-full py-40  mx-4 md:h-1/2 lg:h-full lg:pt-20 xl:pt-20  flex justify-center items-center flex-col">
         <div className="flex w-full h-full  lg:pt-20 md:justify-center md:items-center py-8 ">

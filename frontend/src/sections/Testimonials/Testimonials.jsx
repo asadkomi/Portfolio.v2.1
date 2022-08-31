@@ -21,7 +21,7 @@ const Testimonials = () => {
   return (
     <div
       name="testimonials"
-      className="w-full md:h-screen lg:h-full flex justify-center items-center  bg-slate-400 bg-[url('./assets/exp.png')] bg-cover bg-center relative"
+      className="w-full md:h-screen lg:h-full flex justify-center items-center  bg-slate-400 bg-[url('./assets/bg-hero.jpg')] bg-cover bg-center relative"
     >
       <div className="w-full md:h-screen   mx-4  lg:h-screen lg:pt-10 xl:pt-20  flex justify-center items-center flex-col">
         <TestimonialCard

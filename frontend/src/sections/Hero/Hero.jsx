@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       name="home"
-      className="w-full h-screen flex justify-center items-center  bg-slate-400 bg-[url('./assets/skills.png')] bg-cover bg-center relative"
+      className="w-full h-screen flex justify-center items-center  bg-slate-400 bg-[url('./assets/bg-hero.jpg')] bg-cover bg-center relative"
     >
       <div className="w-full mx-4 md:h-1/2 lg:pt-10 xl:pt-20  flex justify-center items-center flex-col md:flex-row">
         <div className="flex w-full h-full md:justify-center md:items-center pb-8 ">
