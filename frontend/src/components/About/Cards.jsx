@@ -9,7 +9,7 @@ const Cards = ({ abouts, urlFor }) => {
           whileInView={{ opacity: 1 }}
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.5, type: "tween" }}
-          className="w-80 m-4 flex justify-start items-start flex-col p-4 backdrop-blur-lg bg-gray-rgba rounded-tl-lg"
+          className="w-80 m-4 flex justify-start items-start flex-col p-4 backdrop-blur-lg bg-gray-rgba rounded-lg"
           key={about.title + index}
         >
           <img
@@ -20,7 +20,7 @@ const Cards = ({ abouts, urlFor }) => {
           <h2 className="font-bold text-gray-700" style={{ marginTop: 20 }}>
             {about.title}
           </h2>
-          <p className="text-grayColor" style={{ marginTop: 10 }}>
+          <p className="text-grayColor text-sm" style={{ marginTop: 10 }}>
             {about.description}
           </p>
         </motion.div>

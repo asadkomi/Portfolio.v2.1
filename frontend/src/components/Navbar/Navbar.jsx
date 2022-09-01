@@ -38,7 +38,7 @@ const Navbar = () => {
     <div className="flex  justify-between items-center w-full h-20 px-4 backdrop-blur-sm	 text-grayColor bg-gray-rgba fixed z-20">
       <div>
         <h1 className="font-logo text-2xl md:text-base">
-          Portfolio <span className="text-primary">v2.0</span>
+          Portfolio <span className="text-primary">v2.1</span>
         </h1>
       </div>
 
@@ -77,7 +77,7 @@ const Navbar = () => {
           {links.map(({ link, id }) => (
             <li
               key={id}
-              className="hover:text-primary px-4 cursor-pointer capitalize py-6 text-4xl text-grayColor hover:scale-105 duration-200"
+              className="hover:text-primary px-4 cursor-pointer capitalize py-6 text-xl text-grayColor hover:scale-105 duration-200"
             >
               <Link
                 onClick={() => setToggle(!toggle)}
@@ -89,7 +89,7 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <button className="text-white w-fit px-6 py-2 ml-4 justify-center flex items-center rounded-md bg-gradient-to-r from-btn to-[#f6862b]">
+          <button className="text-white w-fit px-6 py-2 justify-center flex items-center rounded-md bg-gradient-to-r from-btn to-[#f6862b]">
             <a href="/Resume.pdf" download target="_blank" rel="noreferrer">
               Resume'
             </a>

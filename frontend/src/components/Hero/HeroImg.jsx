@@ -24,11 +24,11 @@ const HeroImg = () => {
       <img
         src={HeroImage}
         alt="profile_image"
-        className=" backdrop-blur-sm	 text-grayColor bg-gray-rgba rounded-tl-lg rounded-tr-lg rounded-bl-lg shadow-lg"
+        className=" backdrop-blur-sm	 text-grayColor bg-gray-rgba rounded-lg shadow-lg"
       />
-      <div className="flex mt-1 py-4 px-2 backdrop-blur-sm justify-center	w-1/2 text-grayColor bg-gray-rgba rounded-br-lg shadow-lg">
+      {/* <div className="flex mt-1 py-4 px-2 backdrop-blur-sm justify-start	w-1/2 text-grayColor bg-gray-rgba rounded-br-lg shadow-lg">
         <p className="p-text">a Software Engineer</p>
-      </div>
+      </div> */}
     </motion.div>
   );
 };

@@ -22,8 +22,9 @@ const About = () => {
     >
       <div className="w-full h-full py-40  mx-4 md:h-1/2 lg:h-full lg:pt-10 xl:pt-20  flex justify-center items-center flex-col">
         <PageTitle
-          title={"I Know that Good Design"}
-          desc={"means Good Business"}
+          page={""}
+          title={""}
+          desc={"Hire me, you'll love my work!"}
         />
         <div className="flex w-full justify-center flex-wrap  ">
           <Cards abouts={abouts} urlFor={urlFor} />
