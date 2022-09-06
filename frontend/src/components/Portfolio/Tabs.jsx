@@ -3,7 +3,7 @@ import React from "react";
 const Tabs = ({ activeFilter, handleWorkFilter }) => {
   return (
     <>
-      {["UI/UX", "Web App", "Mobile App", "React JS", "All"].map(
+      {["UI/UX", "Web App", "React JS", "All"].map(
         (item, index) => (
           <div
             key={index}
