@@ -56,7 +56,7 @@ const Project = ({ animateCard, filterWork, urlFor }) => {
 
             <div className="p-2 w-full relative flex-col flex justify-center items-center">
               <h4 className="font-bold mt-4 leading-6">{work.title}</h4>
-              <p className="p-text" style={{ marginTop: 10 }}>
+              <p className="p-text" style={{ marginTop: 10, fontSize:'12px' }}>
                 {work.description}
               </p>
 
