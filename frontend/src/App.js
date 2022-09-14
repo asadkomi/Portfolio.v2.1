@@ -1,4 +1,4 @@
-// import "./App.css";
+
 import Experiences from "./sections/Experiences/Experiences";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./sections/About/About";

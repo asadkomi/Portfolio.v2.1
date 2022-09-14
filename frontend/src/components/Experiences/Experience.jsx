@@ -31,8 +31,6 @@ const Experience = ({ experiences }) => {
                   <ReactTooltip
                     id={work.name}
                     effect="solid"
-                    // arrowColor="#fff"
-
                     className="w-[300px] text-center opacity-10"
                   >
                     {work.desc}

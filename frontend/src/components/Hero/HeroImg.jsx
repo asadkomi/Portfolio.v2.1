@@ -26,9 +26,6 @@ const HeroImg = () => {
         alt="profile_image"
         className=" backdrop-blur-sm	 text-grayColor bg-gray-rgba rounded-lg shadow-lg"
       />
-      {/* <div className="flex mt-1 py-4 px-2 backdrop-blur-sm justify-start	w-1/2 text-grayColor bg-gray-rgba rounded-br-lg shadow-lg">
-        <p className="p-text">a Software Engineer</p>
-      </div> */}
     </motion.div>
   );
 };
