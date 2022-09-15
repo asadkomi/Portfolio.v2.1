@@ -45,8 +45,8 @@ const Contact = () => {
     >
       <div className="w-full h-full py-40  mx-4 md:h-1/2 lg:h-full lg:pt-10 xl:pt-20  flex justify-center items-center flex-col">
         <PageTitle
-          title={"I Know that Good Design"}
-          desc={"means Good Business"}
+          title={""}
+          desc={"Let's drink coffee and talk about your project"}
         />
         <div className="flex w-full justify-center items-center pb-40">
           {!isFormSubmitted ? (
